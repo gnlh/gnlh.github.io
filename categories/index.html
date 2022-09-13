@@ -75,7 +75,7 @@
 
 
 <body>
-  <script src="https://cdn.jsdelivr.net/gh/gnlh/cdn@1.0/js/APlayer.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><meting-js server="netease" type="playlist" id="7625231613" order="random" fixed="true" autoplay="true" loop="all" list-folded="false" storage-name="metingjs" preload="auto" theme="#39c5bb" mutex="true"></meting-js ><style>  .ap-hover { left: -66px !important; } @media screen and (max-width: 420px) { .aplayer.aplayer-fixed aplayer-body{max-width: 90vw;}}</style>
+  
 
   <header>
     
@@ -308,7 +308,7 @@
     <div class="footer-inner">
   
     <div class="footer-content">
-       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> <div style="font-size: 0.85rem"> <span id="timeDate">载入天数...</span> <span id="times">载入时分秒...</span> <script src="/js/duration.js"></script> </div> 
     </div>
   
   
@@ -379,5 +379,11 @@
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
-</body>
+<!-- hexo injector body_end start -->
+  <div id="aplayer"></div>
+  <link defer rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+  <script defer src="../source/js/APlayer.js"></script>
+  </script><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+  <meting-js server="netease" type="playlist" id="7625231613" order="random" fixed="true" autoplay="true" loop="all" list-folded="false" storage-name="metingjs" preload="auto" theme="#39c5bb" mutex="true"></meting-js >
+<!-- hexo injector body_end end --></body>
 </html>

@@ -1,0 +1,9 @@
+.ap-hover {
+    left: -66px !important;
+}
+
+@media screen and (max-width: 420px) {
+    .aplayer.aplayer-fixed aplayer-body {
+        max-width: 90vw;
+    }
+}
