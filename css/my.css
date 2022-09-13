@@ -1,0 +1,13 @@
+.ap-hover {
+    left: -66px !important;
+}
+.aplayer .aplayer-lrc p {
+  text-indent: -999rem!important;
+    z-index: -999;
+}
+@media screen and (max-width: 420px) {
+    .aplayer.aplayer-fixed .aplayer-body {
+      max-width: 90vw;
+    }
+  }
+
